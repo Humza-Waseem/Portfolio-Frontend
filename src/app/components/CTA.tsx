@@ -8,7 +8,7 @@ const CTA: React.FC = () => (
         <div className="container">
 
           <h2 className="title h2 section-title text-center">
-            Let's Work Together On Your Next Project!
+            Let&apos;s Work Together On Your Next Project!
           </h2>
 
           <a href="#" className="btn btn:hover">
