@@ -32,17 +32,7 @@ const About: React.FC = () => (
               Certification
             </button>
           </li>
-           {/* <li className="tab-btn-item">
-            <button className="tab-btn title h6" data-tab-btn="interview">
-              Interview
-            </button>
-          </li> */}
-
-          {/* <li className="tab-btn-item">
-            <button className="tab-btn title h6" data-tab-btn="awward">
-              Awwards
-            </button>
-          </li> */}
+           
 
         </ul>
 
@@ -54,7 +44,7 @@ const About: React.FC = () => (
               data-tilt
             >
               <img
-                src="/images/about-banner.jpg"
+                src="/images/me1.jpeg"
                 width={570}
                 height={420}
                 loading="lazy"
@@ -62,17 +52,14 @@ const About: React.FC = () => (
                 className="img-cover"
               />
             </figure>
-
+   {/* ABOUT CONTENT */}
             <div className="about-content">
               <h2 className="h4 title section-title">
                 Multidisciplinary Software Engineer 
               </h2>
 
               <p className="section-text">
-                I am a multidisciplinary software engineer with a passion for
-                creating innovative solutions. My expertise spans across web
-                development, UI/UX, and ServiceNow Development, allowing me to
-                deliver comprehensive and effective products.
+              I am a software engineer with strong experience in backend and full stack development. I specialize in Python, Django, and REST APIs. I enjoy building scalable applications, solving real world problems, and delivering clean, reliable solutions that users can depend on.
               </p>
 
               <ul className="about-list">
@@ -91,7 +78,7 @@ const About: React.FC = () => (
                 <li className="about-item">
                   <p className="list-title">Email Address</p>
 
-                  <span className="span title h6">hamza.wasym99@gmail.com</span>
+                  <span className="span title h6">hamzaawaseemm@gmail.com</span>
                 </li>
 
                 <li className="about-item">
@@ -101,38 +88,38 @@ const About: React.FC = () => (
                     <a href="https://www.linkedin.com/in/hamzaawaseem/" className="social-link h6" title="LinkedIn">
                       <IoLogoLinkedin aria-hidden="true" />
                     </a>
-                    <a href="https://www.instagram.com/hmmmza._/" className="social-link h6" title="Instagram">
+                    {/* <a href="https://www.instagram.com/hmmmza._/" className="social-link h6" title="Instagram">
                       <IoLogoInstagram aria-hidden="true" />
-                    </a>
+                    </a> */}
                     <a href="https://github.com/Humza-Waseem" className="social-link h6" title="Github">
                       <IoLogoGithub aria-hidden="true" />
                     </a>
-                    <a href="https://x.com/vaxmerstappen01" className="social-link h6" title="X">
+                    {/* <a href="https://x.com/vaxmerstappen01" className="social-link h6" title="X">
                       <IoLogoTwitter aria-hidden="true" />
-                    </a>
+                    </a> */}
                   </div>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
+  
+  {/* SKILLSET CONTENT */}
         <div className="tab-content" data-tab-content="skillset">
           <div className="grid-list">
             <div className="skill-content">
               <h3 className="h4 title section-title">
-                We help to create visual strategies.
+                I build scalable and impactful software solutions.
               </h3>
 
               <p className="section-text">
-                A very small stage in a vast cosmic arena great turbuslent
-                clouds encyclo-paedia galactica star stuff harvesting star light
+               From designing backend systems to developing full stack applications, I focus on writing clean code and creating products that solve real problems.
               </p>
 
               <ul className="skill-list">
                 <li>
                   <div className="skill-wrapper">
-                    <span className="span">Website Development</span>
+                    <span className="span">Backend Development</span>
 
                     <span className="value">95%</span>
                   </div>
@@ -147,9 +134,23 @@ const About: React.FC = () => (
 
                 <li>
                   <div className="skill-wrapper">
-                    <span className="span">Design UI & UX</span>
+                    <span className="span">Full-Stack Development</span>
 
                     <span className="value">85%</span>
+                  </div>
+
+                  <div className="progress-bar">
+                    <div
+                      className="progress-fill"
+                      style={{ width: "85%" }}
+                    ></div>
+                  </div>
+                </li>
+                <li>
+                  <div className="skill-wrapper">
+                    <span className="span">API Design & Database Management</span>
+
+                    <span className="value">90%</span>
                   </div>
 
                   <div className="progress-bar">
@@ -175,7 +176,7 @@ const About: React.FC = () => (
               data-tilt
             >
               <img
-                src="/images/skill-banner.jpg"
+                src="/images/cat.jpg"
                 width={570}
                 height={420}
                 loading="lazy"
@@ -190,12 +191,7 @@ const About: React.FC = () => (
 
 
 
-
-
-
-
-
-        <div className="tab-content" data-tab-content="interview">
+        {/* <div className="tab-content" data-tab-content="interview">
           <div className="grid-list">
             <div
               className="interview-card img-holder"
@@ -245,74 +241,10 @@ const About: React.FC = () => (
               <button className="btn btn:hover">Play</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="tab-content" data-tab-content="awward">
-          <h3 className="h4 title section-title">
-            We’re a team of creatives who are excited about unique ideas and
-            help IT-tech companies to make identity by crafting UI/UX.
-          </h3>
-
-          <ul className="grid-list">
-            <li>
-              <div className="award-card">
-                <figure
-                  className="card-banner img-holder"
-                  style={{ width: 534, height: 383 }}
-                  data-tilt
-                >
-                  <img
-                    src="/images/awward-1.jpg"
-                    width={534}
-                    height={383}
-                    loading="lazy"
-                    alt="certificate"
-                    className="img-cover"
-                  />
-                </figure>
-              </div>
-            </li>
-
-            <li>
-              <div className="award-card">
-                <figure
-                  className="card-banner img-holder"
-                  style={{ width: 534, height: 383 }}
-                  data-tilt
-                >
-                  <img
-                    src="/images/awward-2.jpg"
-                    width={534}
-                    height={383}
-                    loading="lazy"
-                    alt="certificate"
-                    className="img-cover"
-                  />
-                </figure>
-              </div>
-            </li>
-
-            <li>
-              <div className="award-card">
-                <figure
-                  className="card-banner img-holder"
-                  style={{ width: 534, height: 383 }}
-                  data-tilt
-                >
-                  <img
-                    src="/images/awward-3.jpg"
-                    width={534}
-                    height={383}
-                    loading="lazy"
-                    alt="certificate"
-                    className="img-cover"
-                  />
-                </figure>
-              </div>
-            </li>
-          </ul>
-        </div>
-
+      
+{/* CERTIFICATIONS */}
         <div className="tab-content" data-tab-content="exhibition">
           <ul className="grid-list">
             <li>
@@ -322,14 +254,17 @@ const About: React.FC = () => (
                   style={{ width: 376, height: 200 }}
                   data-tilt
                 >
+                  <a 
+                  href="https://www.linkedin.com/posts/hamzaawaseem_beta-microsoft-learn-student-ambassador-activity-7115273743060377601-v6-d?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0hTyEBe2QJZOfOZ9dl34D4aJweHNPfviA" target="__blank">
                   <img
-                    src="/images/exhibition-1.jpg"
+                    src="/images/certs/beta.jpg"
                     width={376}
                     height={200}
                     loading="lazy"
                     alt="image"
                     className="img-cover"
                   />
+                  </a>
                 </figure>
                 {/* <div className="card-icon">
                   <IoImageOutline aria-hidden="true" />
@@ -344,14 +279,17 @@ const About: React.FC = () => (
                   style={{ width: 376, height: 200 }}
                   data-tilt
                 >
+                  <a 
+                  href="https://www.linkedin.com/posts/hamzaawaseem_hi-everyone-a-quick-update-recently-i-activity-7096842300718276608-Ifc4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0hTyEBe2QJZOfOZ9dl34D4aJweHNPfviA" target="__blank">
                   <img
-                    src="/images/exhibition-2.jpg"
+                    src="/images/certs/ai-skill.jpg"
                     width={376}
                     height={200}
                     loading="lazy"
                     alt="video"
                     className="img-cover"
                   />
+                  </a>
                 </figure>
                 <div className="card-icon">
                   <IoLogoYoutube aria-hidden="true" />
@@ -366,14 +304,16 @@ const About: React.FC = () => (
                   style={{ width: 376, height: 200 }}
                   data-tilt
                 >
+                  <a href="https://coursera.org/share/4586fae03b75d2fa6846be3d290ef875" target="__blank">
                   <img
-                    src="/images/exhibition-3.jpg"
+                    src="/images/certs/image.png"
                     width={376}
                     height={200}
                     loading="lazy"
                     alt="music"
                     className="img-cover"
                   />
+                  </a>
                 </figure>
                 <div className="card-icon">
                   <IoLogoSoundcloud aria-hidden="true" />
@@ -388,14 +328,17 @@ const About: React.FC = () => (
                   style={{ width: 376, height: 200 }}
                   data-tilt
                 >
+                  <a 
+                  href="https://www.linkedin.com/posts/hamzaawaseem_django-sql-coursera-activity-7169313380514623488-qAwk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0hTyEBe2QJZOfOZ9dl34D4aJweHNPfviA" target="__blank">
                   <img
-                    src="/images/exhibition-4.jpg"
+                    src="/images/certs/django.jpg"
                     width={376}
                     height={200}
                     loading="lazy"
                     alt="image"
                     className="img-cover"
                   />
+                  </a>
                 </figure>
                 <div className="card-icon">
                   <IoImageOutline aria-hidden="true" />
@@ -403,7 +346,7 @@ const About: React.FC = () => (
               </div>
             </li>
 
-            <li>
+            {/* <li>
               <div className="exhibition-card">
                 <figure
                   className="card-banner img-holder"
@@ -445,7 +388,7 @@ const About: React.FC = () => (
                   <IoImageOutline aria-hidden="true" />
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

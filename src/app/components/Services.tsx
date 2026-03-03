@@ -18,8 +18,8 @@ const Services: React.FC = () => (
 
                 <h3 className="card-title">
                   <a href="#">
-                    Web <br/>
-                    Development
+                    Python<br/>
+                    Django
                   </a>
                 </h3>
 
@@ -36,8 +36,8 @@ const Services: React.FC = () => (
 
                 <h3 className="card-title">
                   <a href="#">
-                    Digital <br/>
-                    Marketing
+                    Backend <br/>
+                    Development
                   </a>
                 </h3>
 
@@ -54,15 +54,15 @@ const Services: React.FC = () => (
 
                 <h3 className="card-title">
                   <a href="#">
-                    Graphics <br/>
-                    Design
+                    Artificial Intelligence <br/>
+                    
                   </a>
                 </h3>
 
               </div>
             </li>
 
-            <li className="service-item">
+            {/* <li className="service-item">
               <div className="service-card">
 
                 <div className="card-icon">
@@ -78,7 +78,7 @@ const Services: React.FC = () => (
                 </h3>
 
               </div>
-            </li>
+            </li> */}
 
           </ul>
 

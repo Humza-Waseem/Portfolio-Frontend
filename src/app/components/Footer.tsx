@@ -6,7 +6,7 @@ const Footer: React.FC = () => (
     <div className="container">
 
       <p className="copyright">
-        Copyright & Design By @Hamza Waseem - 2025
+         @Hamza Waseem - 2026
       </p>
 
       <a href="#top" className="back-top-btn">

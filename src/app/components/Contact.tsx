@@ -71,15 +71,15 @@ const Contact: React.FC = () => (
                               <a href="https://www.linkedin.com/in/hamzaawaseem/" className="social-link h2" title="LinkedIn">
                                 <IoLogoLinkedin aria-hidden="true" />
                               </a>
-                              <a href="https://www.instagram.com/hmmmza._/" className="social-link h2" title="Instagram">
+                              {/* <a href="https://www.instagram.com/hmmmza._/" className="social-link h2" title="Instagram">
                                 <IoLogoInstagram aria-hidden="true" />
-                              </a>
+                              </a> */}
                               <a href="https://github.com/Humza-Waseem" className="social-link h2" title="Github">
                                 <IoLogoGithub aria-hidden="true" />
                               </a>
-                              <a href="https://x.com/vaxmerstappen01" className="social-link h2" title="X">
+                              {/* <a href="https://x.com/vaxmerstappen01" className="social-link h2" title="X">
                                 <IoLogoTwitter aria-hidden="true" />
-                              </a>
+                              </a> */}
                             </div>
                           </li>
           {/* <li className="contact-item">

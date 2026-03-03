@@ -12,7 +12,7 @@ const CTA: React.FC = () => (
           </h2>
 
           <a href="#" className="btn btn:hover">
-            <span className="span">Hire Me Now</span>
+            <span className="span">Contact Me!</span>
 
             <IoArrowForwardOutline aria-hidden="true" />
           </a>
