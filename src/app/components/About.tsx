@@ -378,7 +378,7 @@ const About: React.FC = () => (
                   style={{ width: 376, height: 200 }}
                   data-tilt
                 >
-                    <a href="https://www.linkedin.com/learning/certificates/8a1fb3eeb593d76df0049e10103d2132e2a4d54f74f9aee511d9dbaf0c875ee3?trk=share_certificate" target="__blank">
+                    <a href="https://www.hackerrank.com/certificates/b894df243c11" target="__blank">
                   <img
                     src="/images/certs/hackerrank.png"
                     width={376}
