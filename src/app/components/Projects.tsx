@@ -15,10 +15,10 @@ const Projects: React.FC = () => (
               <div className="card-banner img-holder has-before" 
               style={{width: 1000, height: 763}}>
                  
-                <img src="/images/project-1.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Creative & experienced digital design studio" className="img-cover"/>
+                <img src="/images/mainWindow.png" width="1000" height="763" loading="lazy"
+                  alt="Python & Django Backend Development" className="img-cover"/>
 
-                <a href="#" className="btn btn:hover">
+                <a href="https://github.com/Humza-Waseem/Study-Sphere" className="btn btn:hover">
                   <span className="span">Project Details</span>
 
                   <IoArrowForward aria-hidden="true" />
@@ -29,33 +29,7 @@ const Projects: React.FC = () => (
                 <p className="card-subtitle">Web, Product</p>
 
                 <h3 className="title h3">
-                  <a href="#" className="card-title">Creative & experienced digital design studio</a>
-                </h3>
-              </div>
-
-            </div>
-          </li>
-
-          <li className="slider-item">
-            <div className="project-card text-center">
-
-              <div className="card-banner img-holder has-before" 
-              style={{width: 1000, height: 763}}>
-                <img src="/images/project-2.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Front End Development & Maintenance" className="img-cover"/>
-
-                <a href="#" className="btn btn:hover">
-                  <span className="span">Project Details</span>
-
-                  <IoArrowForward aria-hidden="true" />
-                </a>
-              </div>
-
-              <div className="card-content">
-                <p className="card-subtitle">Web, Product</p>
-
-                <h3 className="title h3">
-                  <a href="#" className="card-title">Front End Development & Maintenance</a>
+                  <a href="https://github.com/Humza-Waseem/Study-Sphere" className="card-title">StudySphere | Study Chat Rooms </a>
                 </h3>
               </div>
 
@@ -68,10 +42,11 @@ const Projects: React.FC = () => (
               <div className="card-banner img-holder has-before" 
               style={{width: 1000, height: 763}}
               >
-                <img src="/images/project-3.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Flutter Framework & Warframe Design" className="img-cover"/>
 
-                <a href="#" className="btn btn:hover">
+                <img src="/images/f1Cars.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Formula 1 Race Result Predictor" className="img-cover"/>
+
+                <a href="https://github.com/Humza-Waseem/F1-Race-Result-Predictor" target="__blank" className="btn btn:hover">
                   <span className="span">Project Details</span>
 
                   <IoArrowForward aria-hidden="true" />
@@ -82,7 +57,33 @@ const Projects: React.FC = () => (
                 <p className="card-subtitle">Web, Product</p>
 
                 <h3 className="title h3">
-                  <a href="#" className="card-title">Flutter Framework & Warframe Design</a>
+                  <a href="https://github.com/Humza-Waseem/F1-Race-Result-Predictor" target="__blank" className="card-title">Formula 1 Race Result Predictor</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li className="slider-item">
+            <div className="project-card text-center">
+
+              <div className="card-banner img-holder has-before" 
+              style={{width: 1000, height: 763}}>
+                <img src="/images/project-2.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Schmeet" className="img-cover"/>
+
+                <a href="https://github.com/Humza-Waseem/Schmeet" className="btn btn:hover">
+                  <span className="span">Project Details</span>
+
+                  <IoArrowForward aria-hidden="true" />
+                </a>
+              </div>
+
+              <div className="card-content">
+                <p className="card-subtitle">Web, Product</p>
+
+                <h3 className="title h3">
+                  <a href="https://github.com/Humza-Waseem/Schmeet" className="card-title">Schmeet</a>
                 </h3>
               </div>
 
@@ -116,30 +117,30 @@ const Projects: React.FC = () => (
             </div>
           </li>
 
-          <li className="slider-item">
-            <div className="project-card text-center">
+            {/* <li className="slider-item">
+              <div className="project-card text-center">
 
-              <div className="card-banner img-holder has-before" style={{width: 1000, height: 763}}>
-                <img src="/images/project-5.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Cloud Migration & AWS Services" className="img-cover"/>
+                <div className="card-banner img-holder has-before" style={{width: 1000, height: 763}}>
+                  <img src="/images/project-5.jpg" width="1000" height="763" loading="lazy"
+                    alt="Project poster: Cloud Migration & AWS Services" className="img-cover"/>
 
-                <a href="#" className="btn btn:hover">
-                  <span className="span">Project Details</span>
+                  <a href="#" className="btn btn:hover">
+                    <span className="span">Project Details</span>
 
-                  <IoArrowForward aria-hidden="true" />
-                </a>
+                    <IoArrowForward aria-hidden="true" />
+                  </a>
+                </div>
+
+                <div className="card-content">
+                  <p className="card-subtitle">Web, Product</p>
+
+                  <h3 className="title h3">
+                    <a href="#" className="card-title">Cloud Migration & AWS Services</a>
+                  </h3>
+                </div>
+
               </div>
-
-              <div className="card-content">
-                <p className="card-subtitle">Web, Product</p>
-
-                <h3 className="title h3">
-                  <a href="#" className="card-title">Cloud Migration & AWS Services</a>
-                </h3>
-              </div>
-
-            </div>
-          </li>
+            </li> */}
 
         </ul>
 

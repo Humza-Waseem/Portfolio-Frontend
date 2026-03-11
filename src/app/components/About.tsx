@@ -49,7 +49,7 @@ const About: React.FC = () => (
                 height={420}
                 loading="lazy"
                 alt="about banner"
-                className="img-cover"
+                className="img-cover-about"
               />
             </figure>
    {/* ABOUT CONTENT */}
@@ -134,9 +134,9 @@ const About: React.FC = () => (
 
                 <li>
                   <div className="skill-wrapper">
-                    <span className="span">Full-Stack Development</span>
+                    <span className="span">Full Stack Web Applications</span>
 
-                    <span className="value">85%</span>
+                    <span className="value">90%</span>
                   </div>
 
                   <div className="progress-bar">
@@ -148,9 +148,9 @@ const About: React.FC = () => (
                 </li>
                 <li>
                   <div className="skill-wrapper">
-                    <span className="span">API Design & Database Management</span>
+                    <span className="span">AI & Automation Development</span>
 
-                    <span className="value">90%</span>
+                    <span className="value">85%</span>
                   </div>
 
                   <div className="progress-bar">
@@ -181,7 +181,7 @@ const About: React.FC = () => (
                 height={420}
                 loading="lazy"
                 alt="skill banner"
-                className="img-cover"
+                className="img-cover-skill"
               />
             </figure>
           </div>
@@ -262,7 +262,7 @@ const About: React.FC = () => (
                     height={200}
                     loading="lazy"
                     alt="image"
-                    className="img-cover"
+                    className="img-cover-cert"
                   />
                   </a>
                 </figure>
@@ -271,7 +271,6 @@ const About: React.FC = () => (
                 </div> */}
               </div>
             </li>
-   
 
             <li>
               <div className="exhibition-card">
@@ -287,7 +286,7 @@ const About: React.FC = () => (
                     height={200}
                     loading="lazy"
                     alt="image" 
-                    className="img-cover"
+                    className="img-cover-cert"
                   /> </a>
                 </figure>
                 <div className="card-icon">
@@ -295,7 +294,6 @@ const About: React.FC = () => (
                 </div>
               </div>
             </li>
-
 
             <li>
               <div className="exhibition-card">
@@ -312,7 +310,7 @@ const About: React.FC = () => (
                     height={200}
                     loading="lazy"
                     alt="video"
-                    className="img-cover"
+                    className="img-cover-cert"
                   />
                   </a>
                 </figure>
@@ -336,7 +334,7 @@ const About: React.FC = () => (
                     height={200}
                     loading="lazy"
                     alt="music"
-                    className="img-cover"
+                    className="img-cover-cert"
                   />
                   </a>
                 </figure>
@@ -361,7 +359,7 @@ const About: React.FC = () => (
                     height={200}
                     loading="lazy"
                     alt="image"
-                    className="img-cover"
+                    className="img-cover-cert"
                   />
                   </a>
                 </figure>
@@ -385,7 +383,7 @@ const About: React.FC = () => (
                     height={200}
                     loading="lazy"
                     alt="image"
-                    className="img-cover"
+                    className="img-cover-cert"
                   />
                   </a>
                 </figure>
@@ -395,7 +393,6 @@ const About: React.FC = () => (
               </div>
             </li>
 
-           
           </ul>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Hero: React.FC = () => (
         <div className="banner-outline has-after">
 
           <div className="hero-banner img-holder has-after" style={{ "--width": 500, "--height": 680 } as React.CSSProperties} data-tilt>
-            <img src="/images/hero-banner.jpg" width="500" height="680" alt="Hamza Waseem" className="img-cover" />
+            <img src="/images/hero-banner.jpg" width="500" height="680" alt="Hamza Waseem" className="img-cover-hero" />
           </div>
 
           <span className="span title">Hamza Waseem</span>
